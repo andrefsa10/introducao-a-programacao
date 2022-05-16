@@ -1,0 +1,7 @@
+from time import sleep
+glossario={'Visual studio Code':' uma API','ROM':' uma memória permanente','Windows':' um sistema operacional',
+'Python':'uma linguagem de programação','Algoritmo':'um conjunto de instruções, que necessitam de uma linguagem de programação para ser executada'}
+for i in glossario:
+    sleep(1)
+    print('\n---------------------------------------------------------------------------')
+    print(f'{i} é {glossario[i]}')
